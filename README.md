@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Artyrac/artyrac.github.io)
-- Live Site URL: [https://artyrac.github.io](artyrac.github.io)
+- Live Site URL: https://artyrac.github.io/
 
 ## My process
 
