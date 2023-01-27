@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(202, 214, 224);
-    font-size: 150%;
+    background-color: rgb(208, 232, 248);
+    font-size: 1rem;
     font-family: sans-serif;
 }
 #qr{
@@ -8,29 +8,36 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    width: 29vh;
-    padding: 15px;
+    max-width: 340px; /* Changed 'width: 29vh' to 'max-width: 340px'*/
+    padding: 1em; /* Changed units from 15px to 1em*/
     height: auto;
     border-radius: 20px;
 }
 img{
-    overflow: scroll;
-    width:  auto;
-    border-radius: inherit;
-    margin: 5px;
-    margin-bottom: 20px;
+    max-width: 100%;
+    border-radius: 20px;
+    /* Deleted margins*/
 }
-#cont{
+main{
     display: flex;
     width: 100%;
-    height: 100vh;
+    /* Changed 'height' to 'min-height' */
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+/* Set same margins for both '<p>' and '<h1>' tags*/
 p{
-    font-size: 90%;
     color: gray;
-    max-width: 100%;
-    min-width: 100%;
+    text-align: center;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+h1{
+    text-align: center;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
 }
