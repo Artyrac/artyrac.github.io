@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | QR code component</title>
-    <link rel="stylesheet" href="qr-code-component-main/design/qr.css">
+    <link rel="stylesheet" href="qr.css">
 </head>
 <body>
-        <div id="cont">
+    <!-- Changed <div id='cont'> to <main> tag-->
+    <main> 
         <div id="qr">
-            <img src="qr-code-component-main/images/image-qr-code.png" alt="QR-Code">
-            <b>Improve your front-end <br> skills by building projects</b>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            <img src="/images/image-qr-code.png" alt="QR-Code">
+            <!-- Changed <b> to <h1> | deleted <br> -->
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take 
+                your coding skills to the next level</p>
         </div>
-    </div>
+    </main>
 </body>
 </html>
